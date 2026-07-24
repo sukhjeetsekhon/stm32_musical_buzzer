@@ -88,3 +88,21 @@ Open `musical_config.h` and update the following values to match your CubeMX set
 **Notes sound too fast or too slow.**
 > Confirm that `BPM` is set correctly and that `TIM_FREQ` exactly matches your timer clock frequency from CubeMX.
 `
+
+**My project is not building/compiling.**
+> - Make sure that your CMakeLists.txt contains your include directory and source files.**
+> - It should look like this:
+```
+   # CMakeLists.txt
+   # Add sources to executable
+   target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+       # Add user sources here
+       Core/Src/musical_player.c
+   )
+   
+   # Add include paths
+   target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+       # Add user defined include paths
+       Core/Inc
+   )
+```
