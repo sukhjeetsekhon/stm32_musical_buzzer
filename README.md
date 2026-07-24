@@ -6,6 +6,8 @@ An STM32 library for using a passive buzzer and PWM signals to make music.
 
 ## Getting Started
 
+
+
 ### STM32CubeMX
 
 *Make sure you have the STM32CubeMX software installed*
@@ -33,6 +35,8 @@ An STM32 library for using a passive buzzer and PWM signals to make music.
    c. Make sure Counter Mode = Up
 
    d. Set Counter Period (ARR) (Default: 99)
+
+   e. Remember the TIM#_CH# pin on the right Pinout view for wiring later
 
 6. Go to Clock Configuration at the top-middle
 
