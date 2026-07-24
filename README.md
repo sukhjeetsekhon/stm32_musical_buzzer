@@ -58,5 +58,12 @@ An STM32 library for using a passive buzzer and PWM signals to make music.
 
 4. [Optional] Set the Articulation Delay to add an extremely short rest at the end of each note (Default: 5)
 
-## Wiring Diagram
+## Wiring Instructions
 
+1. Wire the TIM#_CH# pin to the positive terminal of the buzzer
+
+2. Wire the negative terminal of the buzzer to G/GND/Ground
+
+## Troubleshooting
+
+- If your buzzer is working but doesn't sound right, it may be an active buzzer which cannot play different PWM frequencies. You need a passive buzzer.
