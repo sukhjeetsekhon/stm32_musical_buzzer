@@ -48,7 +48,7 @@ An STM32 library for using a passive buzzer and PWM signals to make music.
 
 8. Generate Code
 
-### Configuration
+### Configuration (musical_config.h)
 
 1. Set TIM_FREQ to your Timer Frequency from the Clock Configuration (Default: 60000000)
 
