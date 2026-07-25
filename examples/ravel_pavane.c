@@ -135,10 +135,6 @@ int main(void)
   {
     play_song(TIM1, SONG_SIZE, ravel_pavane);
     HAL_Delay(1000);
-    /* TIM1->PSC = C4;
-    HAL_Delay(1000);
-    TIM1->PSC = G4;
-    HAL_Delay(1000); */
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
