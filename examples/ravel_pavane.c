@@ -47,6 +47,7 @@ TIM_HandleTypeDef htim1;
 
 #define SONG_SIZE 25
 
+// Tempo = 80 bpm
 note_t ravel_pavane[SONG_SIZE] = {
   {G4, HALF_NOTE+EIGHTH_NOTE}, // measure 1
   {A4, EIGHTH_NOTE},
