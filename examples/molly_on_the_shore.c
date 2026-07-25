@@ -268,10 +268,6 @@ int main(void)
   {
     play_song(TIM1, SONG_SIZE, molly_on_the_shore);
     HAL_Delay(1000);
-    /* TIM1->PSC = C4;
-    HAL_Delay(1000);
-    TIM1->PSC = G4;
-    HAL_Delay(1000); */
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
