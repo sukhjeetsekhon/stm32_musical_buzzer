@@ -11,8 +11,8 @@
 
 #include "musical_config.h"
 
-#define BPS (BPM / 60.0f)
-#define BPS_MS (1000.0f / BPS)
+#define BPS ((BPM) / 60.0f)
+#define BPS_MS (1000.0f / (BPS))
 
 #define WHOLE_NOTE 4.0f * (BPS_MS)
 #define HALF_NOTE (WHOLE_NOTE) / 2
