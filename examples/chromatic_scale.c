@@ -198,7 +198,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    play_song(TIM1, SONG_SIZE, chromatic_scale);
+    play_song(SONG_SIZE, chromatic_scale);
     HAL_Delay(1000);
     /* USER CODE END WHILE */
 
