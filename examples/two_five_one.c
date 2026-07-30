@@ -123,9 +123,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    play_chord(TIM1, &dmin);
-    play_chord(TIM1, &gmaj);
-    play_chord(TIM1, &cmaj);
+    play_chord(&dmin);
+    play_chord(&gmaj);
+    play_chord(&cmaj);
     HAL_Delay(1000);
     /* USER CODE END WHILE */
 
