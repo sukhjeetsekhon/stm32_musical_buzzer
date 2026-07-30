@@ -133,7 +133,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    play_song(TIM1, SONG_SIZE, ravel_pavane);
+    play_song(SONG_SIZE, ravel_pavane);
     HAL_Delay(1000);
     /* USER CODE END WHILE */
 
