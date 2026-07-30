@@ -266,7 +266,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    play_song(TIM1, SONG_SIZE, molly_on_the_shore);
+    play_song(SONG_SIZE, molly_on_the_shore);
     HAL_Delay(1000);
     /* USER CODE END WHILE */
 
